@@ -1,0 +1,184 @@
+=========================== DATI SINTETICI DI INPUT ============================
+
+Numero pazienti: 50
+Numero anestetici: 32
+
+Matrice di compatibilità (alpha):
+[[0 0 0 ... 1 0 1]
+ [1 0 0 ... 0 0 0]
+ [1 0 0 ... 1 0 1]
+ ...
+ [1 0 1 ... 1 0 0]
+ [1 0 0 ... 0 1 0]
+ [0 0 0 ... 0 0 0]]
+
+Matrice delle quantità (q):
+[[25.36 47.3  12.8  ... 20.36 33.54 49.29]
+ [45.37 34.03 46.15 ... 39.91 11.39 45.8 ]
+ [44.41 28.3  25.65 ... 39.36 30.85 44.73]
+ ...
+ [14.04 44.76 37.27 ... 42.86 32.19 35.48]
+ [31.05 28.53 19.39 ... 15.2  32.6  44.66]
+ [32.87 46.29 47.72 ... 29.04 14.44 35.38]]
+
+Matrice di adeguatezza (s):
+[[7.93702556 1.02593126 8.73061017 ... 1.89880139 7.19239999 3.17699995]
+ [9.19961832 8.54438824 7.3844467  ... 6.77673963 6.13584661 6.11283261]
+ [6.96706612 5.93543833 8.91329603 ... 8.62474995 3.83632335 3.48613592]
+ ...
+ [1.82888879 8.33748698 9.0496395  ... 4.28203609 7.64655291 6.99955376]
+ [2.07605798 6.15378568 3.31069147 ... 5.70891749 3.44607864 4.59250115]
+ [6.38735597 6.87654692 2.38527559 ... 6.2175805  4.11062494 8.34192464]]
+
+Vettore dei costi (c):
+[12.00092141  6.1508424   7.49078782  5.91657001 12.48954419  6.59505946
+  6.71209954 19.1157239  18.08982608 11.78129895 19.78707981  5.00279792
+ 14.20969184 14.24642266 11.86164584 10.95421959 11.83074703 11.22440654
+ 15.95738716  7.03033152  7.96458831  7.70777343  8.93705878 12.87887628
+  6.66813121 18.02253943  9.46042297  7.43806981 15.13431964  5.57129451
+ 14.29952847 15.47297646]
+
+Vettore impatto ambientale (e):
+[1.85966613 1.16785629 2.45458144 1.39437692 1.4659114  2.01704493
+ 2.1818717  3.11988136 3.71356754 3.37108376 1.59344135 1.68834413
+ 4.515077   3.23340926 4.47975133 2.48618605 3.45760003 3.09465366
+ 2.27649396 2.87966149 3.00996351 1.8030839  2.26004149 4.165639
+ 4.66315296 2.43917637 2.22788913 1.78078866 3.71396467 2.29239881
+ 4.95099816 2.30273921]
+
+Pesi funzione obiettivo:
+  lambda_1 (costo): 1.0
+  lambda_2 (impatto): 2.0
+  lambda_3 (adeguatezza): 10.0
+
+================================================================================
+
+--- Inizio Local Search (best-improvement) ---
+Iter 0 (Sol. Iniziale) - Z: 20968.3263
+Iter 1 - Mossa: p_29 -> a_17 | Nuovo Z: 19927.3599 (Delta: -1040.9665)
+Iter 2 - Mossa: p_10 -> a_1 | Nuovo Z: 19034.4222 (Delta: -892.9376)
+Iter 3 - Mossa: p_15 -> a_5 | Nuovo Z: 18230.0132 (Delta: -804.4090)
+Iter 4 - Mossa: p_33 -> a_26 | Nuovo Z: 17668.1616 (Delta: -561.8516)
+Iter 5 - Mossa: p_8 -> a_22 | Nuovo Z: 17137.6737 (Delta: -530.4879)
+Iter 6 - Mossa: p_42 -> a_5 | Nuovo Z: 16628.7851 (Delta: -508.8887)
+Iter 7 - Mossa: p_40 -> a_3 | Nuovo Z: 16161.1862 (Delta: -467.5989)
+Iter 8 - Mossa: p_14 -> a_24 | Nuovo Z: 15703.9067 (Delta: -457.2795)
+Iter 9 - Mossa: p_19 -> a_5 | Nuovo Z: 15248.8256 (Delta: -455.0810)
+Iter 10 - Mossa: p_32 -> a_6 | Nuovo Z: 14849.3004 (Delta: -399.5252)
+Iter 11 - Mossa: p_37 -> a_5 | Nuovo Z: 14468.2533 (Delta: -381.0471)
+Iter 12 - Mossa: p_41 -> a_5 | Nuovo Z: 14095.1572 (Delta: -373.0961)
+Iter 13 - Mossa: p_1 -> a_10 | Nuovo Z: 13725.2953 (Delta: -369.8619)
+Iter 14 - Mossa: p_25 -> a_21 | Nuovo Z: 13369.2872 (Delta: -356.0081)
+Iter 15 - Mossa: p_26 -> a_21 | Nuovo Z: 13057.3538 (Delta: -311.9334)
+Iter 16 - Mossa: p_27 -> a_21 | Nuovo Z: 12745.6900 (Delta: -311.6639)
+Iter 17 - Mossa: p_46 -> a_13 | Nuovo Z: 12443.7883 (Delta: -301.9017)
+Iter 18 - Mossa: p_44 -> a_19 | Nuovo Z: 12148.7178 (Delta: -295.0705)
+Iter 19 - Mossa: p_22 -> a_1 | Nuovo Z: 11856.5380 (Delta: -292.1798)
+Iter 20 - Mossa: p_30 -> a_30 | Nuovo Z: 11566.7962 (Delta: -289.7417)
+Iter 21 - Mossa: p_5 -> a_27 | Nuovo Z: 11285.5358 (Delta: -281.2604)
+Iter 22 - Mossa: p_36 -> a_17 | Nuovo Z: 11030.6477 (Delta: -254.8881)
+Iter 23 - Mossa: p_39 -> a_2 | Nuovo Z: 10776.7623 (Delta: -253.8854)
+Iter 24 - Mossa: p_34 -> a_19 | Nuovo Z: 10523.2497 (Delta: -253.5126)
+Iter 25 - Mossa: p_49 -> a_13 | Nuovo Z: 10314.3892 (Delta: -208.8605)
+Iter 26 - Mossa: p_18 -> a_1 | Nuovo Z: 10133.7558 (Delta: -180.6335)
+Iter 27 - Mossa: p_38 -> a_6 | Nuovo Z: 9955.0531 (Delta: -178.7027)
+Iter 28 - Mossa: p_9 -> a_22 | Nuovo Z: 9811.7405 (Delta: -143.3126)
+Iter 29 - Mossa: p_4 -> a_3 | Nuovo Z: 9679.0629 (Delta: -132.6776)
+Iter 30 - Mossa: p_0 -> a_15 | Nuovo Z: 9558.9050 (Delta: -120.1579)
+Iter 31 - Mossa: p_2 -> a_18 | Nuovo Z: 9441.2402 (Delta: -117.6648)
+Iter 32 - Mossa: p_16 -> a_27 | Nuovo Z: 9351.1718 (Delta: -90.0684)
+Iter 33 - Mossa: p_23 -> a_11 | Nuovo Z: 9288.4146 (Delta: -62.7572)
+Iter 34 - Mossa: p_43 -> a_14 | Nuovo Z: 9235.9451 (Delta: -52.4696)
+Iter 35 - Mossa: p_11 -> a_1 | Nuovo Z: 9186.8124 (Delta: -49.1326)
+Iter 36 - Mossa: p_13 -> a_2 | Nuovo Z: 9137.9998 (Delta: -48.8127)
+Iter 37 - Mossa: p_3 -> a_1 | Nuovo Z: 9091.3131 (Delta: -46.6867)
+Iter 38 - Mossa: p_17 -> a_5 | Nuovo Z: 9075.8122 (Delta: -15.5009)
+[!] Ottimo Locale Raggiunto
+
+####################### REPORT FINALE (BEST-IMPROVEMENT) #######################
+Soluzione X ottima locale : [15 10 18  1  3 27  3  9 22 22  1  1 15  2 24  5 27  5  1  5 20  3  1 11
+  3 21 21 21  3 17 30 11  6 26 19 27 17  5  6  2  3  5  5 14 19  9 13 20
+  5 13]
+Ammissibilità rigorosa    : Verificata
+Numero di iterazioni      : 38
+Funzione Obiettivo Z      : 9075.81
+ -> Costo Totale (C_tot)  : 7924.78
+ -> Impatto Tot. (E_tot)  : 2181.42
+ -> Adeguatezza (S_tot)   : 321.18
+
+--- Inizio Local Search (first-improvement) ---
+Iter 0 (Sol. Iniziale) - Z: 20968.3263
+Iter 1 - Mossa: p_0 -> a_15 | Nuovo Z: 20848.1685 (Delta: -120.1579)
+Iter 2 - Mossa: p_1 -> a_10 | Nuovo Z: 20478.3065 (Delta: -369.8619)
+Iter 3 - Mossa: p_2 -> a_18 | Nuovo Z: 20360.6417 (Delta: -117.6648)
+Iter 4 - Mossa: p_3 -> a_1 | Nuovo Z: 20313.9550 (Delta: -46.6867)
+Iter 5 - Mossa: p_4 -> a_3 | Nuovo Z: 20181.2775 (Delta: -132.6776)
+Iter 6 - Mossa: p_5 -> a_7 | Nuovo Z: 20079.4538 (Delta: -101.8237)
+Iter 7 - Mossa: p_5 -> a_27 | Nuovo Z: 19900.0171 (Delta: -179.4367)
+Iter 8 - Mossa: p_8 -> a_4 | Nuovo Z: 19687.4182 (Delta: -212.5988)
+Iter 9 - Mossa: p_8 -> a_5 | Nuovo Z: 19539.8713 (Delta: -147.5469)
+Iter 10 - Mossa: p_8 -> a_22 | Nuovo Z: 19369.5291 (Delta: -170.3422)
+Iter 11 - Mossa: p_9 -> a_22 | Nuovo Z: 19226.2165 (Delta: -143.3126)
+Iter 12 - Mossa: p_10 -> a_1 | Nuovo Z: 18333.2789 (Delta: -892.9376)
+Iter 13 - Mossa: p_11 -> a_1 | Nuovo Z: 18284.1462 (Delta: -49.1326)
+Iter 14 - Mossa: p_13 -> a_2 | Nuovo Z: 18235.3336 (Delta: -48.8127)
+Iter 15 - Mossa: p_14 -> a_3 | Nuovo Z: 17847.6941 (Delta: -387.6395)
+Iter 16 - Mossa: p_14 -> a_24 | Nuovo Z: 17778.0541 (Delta: -69.6400)
+Iter 17 - Mossa: p_15 -> a_0 | Nuovo Z: 17401.8098 (Delta: -376.2443)
+Iter 18 - Mossa: p_15 -> a_1 | Nuovo Z: 17032.8865 (Delta: -368.9233)
+Iter 19 - Mossa: p_15 -> a_5 | Nuovo Z: 16973.6451 (Delta: -59.2414)
+Iter 20 - Mossa: p_16 -> a_5 | Nuovo Z: 16891.8387 (Delta: -81.8064)
+Iter 21 - Mossa: p_16 -> a_27 | Nuovo Z: 16883.5767 (Delta: -8.2620)
+Iter 22 - Mossa: p_17 -> a_5 | Nuovo Z: 16868.0758 (Delta: -15.5009)
+Iter 23 - Mossa: p_18 -> a_1 | Nuovo Z: 16687.4423 (Delta: -180.6335)
+Iter 24 - Mossa: p_19 -> a_0 | Nuovo Z: 16651.0233 (Delta: -36.4190)
+Iter 25 - Mossa: p_19 -> a_1 | Nuovo Z: 16274.1006 (Delta: -376.9227)
+Iter 26 - Mossa: p_19 -> a_5 | Nuovo Z: 16232.3613 (Delta: -41.7393)
+Iter 27 - Mossa: p_22 -> a_1 | Nuovo Z: 15940.1814 (Delta: -292.1798)
+Iter 28 - Mossa: p_23 -> a_11 | Nuovo Z: 15877.4242 (Delta: -62.7572)
+Iter 29 - Mossa: p_25 -> a_2 | Nuovo Z: 15597.7915 (Delta: -279.6327)
+Iter 30 - Mossa: p_25 -> a_21 | Nuovo Z: 15521.4161 (Delta: -76.3754)
+Iter 31 - Mossa: p_26 -> a_21 | Nuovo Z: 15209.4828 (Delta: -311.9334)
+Iter 32 - Mossa: p_27 -> a_6 | Nuovo Z: 14925.8727 (Delta: -283.6101)
+Iter 33 - Mossa: p_27 -> a_21 | Nuovo Z: 14897.8189 (Delta: -28.0538)
+Iter 34 - Mossa: p_29 -> a_17 | Nuovo Z: 13856.8524 (Delta: -1040.9665)
+Iter 35 - Mossa: p_30 -> a_30 | Nuovo Z: 13567.1107 (Delta: -289.7417)
+Iter 36 - Mossa: p_32 -> a_1 | Nuovo Z: 13417.3581 (Delta: -149.7526)
+Iter 37 - Mossa: p_32 -> a_6 | Nuovo Z: 13167.5855 (Delta: -249.7726)
+Iter 38 - Mossa: p_33 -> a_21 | Nuovo Z: 12959.9073 (Delta: -207.6782)
+Iter 39 - Mossa: p_33 -> a_26 | Nuovo Z: 12605.7339 (Delta: -354.1734)
+Iter 40 - Mossa: p_34 -> a_1 | Nuovo Z: 12574.2392 (Delta: -31.4947)
+Iter 41 - Mossa: p_34 -> a_11 | Nuovo Z: 12395.8988 (Delta: -178.3404)
+Iter 42 - Mossa: p_34 -> a_19 | Nuovo Z: 12352.2213 (Delta: -43.6775)
+Iter 43 - Mossa: p_36 -> a_0 | Nuovo Z: 12261.6811 (Delta: -90.5402)
+Iter 44 - Mossa: p_36 -> a_16 | Nuovo Z: 12181.5185 (Delta: -80.1626)
+Iter 45 - Mossa: p_36 -> a_17 | Nuovo Z: 12097.3331 (Delta: -84.1853)
+Iter 46 - Mossa: p_37 -> a_1 | Nuovo Z: 11961.9454 (Delta: -135.3878)
+Iter 47 - Mossa: p_37 -> a_2 | Nuovo Z: 11916.3039 (Delta: -45.6415)
+Iter 48 - Mossa: p_37 -> a_5 | Nuovo Z: 11716.2860 (Delta: -200.0179)
+Iter 49 - Mossa: p_38 -> a_1 | Nuovo Z: 11681.5609 (Delta: -34.7251)
+Iter 50 - Mossa: p_38 -> a_6 | Nuovo Z: 11537.5833 (Delta: -143.9776)
+Iter 51 - Mossa: p_39 -> a_2 | Nuovo Z: 11283.6980 (Delta: -253.8854)
+Iter 52 - Mossa: p_40 -> a_3 | Nuovo Z: 10816.0991 (Delta: -467.5989)
+Iter 53 - Mossa: p_41 -> a_3 | Nuovo Z: 10517.2045 (Delta: -298.8946)
+Iter 54 - Mossa: p_41 -> a_5 | Nuovo Z: 10443.0030 (Delta: -74.2015)
+Iter 55 - Mossa: p_42 -> a_5 | Nuovo Z: 9934.1144 (Delta: -508.8887)
+Iter 56 - Mossa: p_43 -> a_14 | Nuovo Z: 9881.6448 (Delta: -52.4696)
+Iter 57 - Mossa: p_44 -> a_7 | Nuovo Z: 9808.5315 (Delta: -73.1133)
+Iter 58 - Mossa: p_44 -> a_19 | Nuovo Z: 9586.5743 (Delta: -221.9571)
+Iter 59 - Mossa: p_46 -> a_3 | Nuovo Z: 9297.7708 (Delta: -288.8035)
+Iter 60 - Mossa: p_46 -> a_13 | Nuovo Z: 9284.6727 (Delta: -13.0982)
+Iter 61 - Mossa: p_49 -> a_13 | Nuovo Z: 9075.8122 (Delta: -208.8605)
+[!] Ottimo Locale Raggiunto
+
+###################### REPORT FINALE (FIRST-IMPROVEMENT) #######################
+Soluzione X ottima locale : [15 10 18  1  3 27  3  9 22 22  1  1 15  2 24  5 27  5  1  5 20  3  1 11
+  3 21 21 21  3 17 30 11  6 26 19 27 17  5  6  2  3  5  5 14 19  9 13 20
+  5 13]
+Ammissibilità rigorosa    : Verificata
+Numero di iterazioni      : 61
+Funzione Obiettivo Z      : 9075.81
+ -> Costo Totale (C_tot)  : 7924.78
+ -> Impatto Tot. (E_tot)  : 2181.42
+ -> Adeguatezza (S_tot)   : 321.18
+

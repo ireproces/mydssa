@@ -1,0 +1,69 @@
+=========================== DATI SINTETICI DI INPUT ============================
+
+Numero pazienti: 5
+Numero anestetici: 3
+
+Matrice di compatibilità (alpha):
+[[1 1 1]
+ [1 1 0]
+ [0 1 1]
+ [1 1 0]
+ [1 0 1]]
+
+Matrice delle quantità (q):
+[[24.98 48.03 39.28]
+ [33.95 16.24 16.24]
+ [12.32 44.65 34.04]
+ [38.32 10.82 48.8 ]
+ [43.3  18.49 17.27]]
+
+Matrice di adeguatezza (s):
+[[10.  5.  0.]
+ [ 8.  5.  0.]
+ [ 0.  5.  8.]
+ [ 0. 10.  0.]
+ [ 5.  0.  8.]]
+
+Vettore dei costi (c):
+[10.  8. 12.]
+
+Vettore impatto ambientale (e):
+[5. 4. 6.]
+
+Pesi funzione obiettivo:
+  lambda_1 (costo): 1.0
+  lambda_2 (impatto): 2.0
+  lambda_3 (adeguatezza): 10.0
+
+================================================================================
+
+--- Inizio Local Search (best-improvement) ---
+Iter 0 (Sol. Iniziale) - Z: 2143.3553
+Iter 1 - Mossa: p_1 -> a_1 | Nuovo Z: 1754.2805 (Delta: -389.0749)
+Iter 2 - Mossa: p_2 -> a_1 | Nuovo Z: 1681.5628 (Delta: -72.7177)
+[!] Ottimo Locale Raggiunto
+
+####################### REPORT FINALE (BEST-IMPROVEMENT) #######################
+Soluzione X ottima locale : [0 1 1 1 2]
+Ammissibilità rigorosa    : Verificata
+Numero di iterazioni      : 2
+Funzione Obiettivo Z      : 1681.56
+ -> Costo Totale (C_tot)  : 1030.78
+ -> Impatto Tot. (E_tot)  : 515.39
+ -> Adeguatezza (S_tot)   : 38.00
+
+--- Inizio Local Search (first-improvement) ---
+Iter 0 (Sol. Iniziale) - Z: 2856.2489
+Iter 1 - Mossa: p_3 -> a_1 | Nuovo Z: 2162.9649 (Delta: -693.2840)
+Iter 2 - Mossa: p_4 -> a_2 | Nuovo Z: 1681.5628 (Delta: -481.4021)
+[!] Ottimo Locale Raggiunto
+
+###################### REPORT FINALE (FIRST-IMPROVEMENT) #######################
+Soluzione X ottima locale : [0 1 1 1 2]
+Ammissibilità rigorosa    : Verificata
+Numero di iterazioni      : 2
+Funzione Obiettivo Z      : 1681.56
+ -> Costo Totale (C_tot)  : 1030.78
+ -> Impatto Tot. (E_tot)  : 515.39
+ -> Adeguatezza (S_tot)   : 38.00
+

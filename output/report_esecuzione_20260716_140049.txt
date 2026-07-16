@@ -1,0 +1,30 @@
+=========================== DATI SINTETICI DI INPUT ============================
+
+Numero pazienti: 2
+Numero anestetici: 4
+
+Matrice di compatibilità (alpha):
+[[1 1 1 1]
+ [1 1 1 1]]
+
+Matrice delle quantità (q):
+[[1. 1. 1. 1.]
+ [1. 1. 1. 1.]]
+
+Matrice di adeguatezza (s):
+[[10.  0.  0.  0.]
+ [ 0.  0. 20.  0.]]
+
+Vettore dei costi (c):
+[0. 0. 0. 0.]
+
+Vettore impatto ambientale (e):
+[0. 0. 0. 0.]
+
+Pesi funzione obiettivo:
+  lambda_1 (costo): 0.0
+  lambda_2 (impatto): 0.0
+  lambda_3 (adeguatezza): 10.0
+
+================================================================================
+

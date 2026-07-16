@@ -1,0 +1,347 @@
+=========================== DATI SINTETICI DI INPUT ============================
+
+Numero pazienti: 100
+Numero anestetici: 20
+
+Matrice di compatibilità (alpha):
+[[0 0 0 ... 1 0 0]
+ [1 0 1 ... 1 1 1]
+ [0 1 1 ... 0 0 0]
+ ...
+ [0 0 1 ... 0 1 1]
+ [0 1 0 ... 1 1 0]
+ [0 1 1 ... 1 0 1]]
+
+Matrice delle quantità (q):
+[[1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ ...
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]]
+
+Matrice di adeguatezza (s):
+[[ 0.  0.  0. ...  0.  0.  0.]
+ [20.  0.  0. ...  0.  0.  0.]
+ [ 0. 20.  0. ...  0.  0.  0.]
+ ...
+ [ 0.  0.  0. ...  0. 20.  0.]
+ [ 0.  0.  0. ...  0.  0.  0.]
+ [ 0.  0.  0. ... 20.  0.  0.]]
+
+Vettore dei costi (c):
+[ 6.87270059  9.75357153  8.65996971  7.99329242  5.7800932   5.7799726
+  5.29041806  9.33088073  8.00557506  8.54036289 20.10292247 24.84954926
+ 24.1622132  21.06169555 20.90912484 20.91702255 21.52121121 22.62378216
+ 22.15972509 21.4561457 ]
+
+Vettore impatto ambientale (e):
+[5.22370579 4.27898772 4.5842893  4.73272369 4.91213997 5.57035192
+ 4.39934756 5.02846888 5.18482914 4.09290083 1.60754485 1.17052412
+ 1.06505159 1.94888554 1.96563203 1.80839735 1.30461377 1.09767211
+ 1.68423303 1.44015249]
+
+Pesi funzione obiettivo:
+  lambda_1 (costo): 1.0
+  lambda_2 (impatto): 2.0
+  lambda_3 (adeguatezza): 10.0
+
+================================================================================
+
+--- Inizio Local Search (best-improvement) ---
+Iter 0 (Sol. Iniziale) - Z: -631.1560
+Iter 1 - Mossa: p_34 -> a_6 | Nuovo Z: -844.2575 (Delta: -213.1015)
+Iter 2 - Mossa: p_9 -> a_6 | Nuovo Z: -1055.1279 (Delta: -210.8704)
+Iter 3 - Mossa: p_32 -> a_6 | Nuovo Z: -1265.8791 (Delta: -210.7513)
+Iter 4 - Mossa: p_14 -> a_6 | Nuovo Z: -1476.6091 (Delta: -210.7300)
+Iter 5 - Mossa: p_15 -> a_6 | Nuovo Z: -1687.3392 (Delta: -210.7300)
+Iter 6 - Mossa: p_46 -> a_6 | Nuovo Z: -1898.0692 (Delta: -210.7300)
+Iter 7 - Mossa: p_16 -> a_4 | Nuovo Z: -2108.7571 (Delta: -210.6879)
+Iter 8 - Mossa: p_0 -> a_6 | Nuovo Z: -2319.2018 (Delta: -210.4447)
+Iter 9 - Mossa: p_45 -> a_0 | Nuovo Z: -2529.0723 (Delta: -209.8705)
+Iter 10 - Mossa: p_4 -> a_5 | Nuovo Z: -2738.4439 (Delta: -209.3716)
+Iter 11 - Mossa: p_22 -> a_2 | Nuovo Z: -2947.8060 (Delta: -209.3620)
+Iter 12 - Mossa: p_40 -> a_6 | Nuovo Z: -3157.0349 (Delta: -209.2289)
+Iter 13 - Mossa: p_24 -> a_0 | Nuovo Z: -3366.0071 (Delta: -208.9722)
+Iter 14 - Mossa: p_17 -> a_1 | Nuovo Z: -3574.8861 (Delta: -208.8791)
+Iter 15 - Mossa: p_38 -> a_3 | Nuovo Z: -3783.7197 (Delta: -208.8336)
+Iter 16 - Mossa: p_8 -> a_8 | Nuovo Z: -3992.5351 (Delta: -208.8154)
+Iter 17 - Mossa: p_33 -> a_9 | Nuovo Z: -4200.6280 (Delta: -208.0930)
+Iter 18 - Mossa: p_39 -> a_9 | Nuovo Z: -4408.7210 (Delta: -208.0930)
+Iter 19 - Mossa: p_12 -> a_0 | Nuovo Z: -4616.3604 (Delta: -207.6394)
+Iter 20 - Mossa: p_18 -> a_2 | Nuovo Z: -4823.4913 (Delta: -207.1309)
+Iter 21 - Mossa: p_20 -> a_2 | Nuovo Z: -5029.7932 (Delta: -206.3019)
+Iter 22 - Mossa: p_1 -> a_0 | Nuovo Z: -5235.7911 (Delta: -205.9979)
+Iter 23 - Mossa: p_43 -> a_0 | Nuovo Z: -5441.7890 (Delta: -205.9979)
+Iter 24 - Mossa: p_3 -> a_2 | Nuovo Z: -5647.2784 (Delta: -205.4895)
+Iter 25 - Mossa: p_5 -> a_7 | Nuovo Z: -5852.7097 (Delta: -205.4313)
+Iter 26 - Mossa: p_6 -> a_7 | Nuovo Z: -6057.8557 (Delta: -205.1460)
+Iter 27 - Mossa: p_37 -> a_7 | Nuovo Z: -6262.8044 (Delta: -204.9486)
+Iter 28 - Mossa: p_47 -> a_6 | Nuovo Z: -6467.0905 (Delta: -204.2861)
+Iter 29 - Mossa: p_41 -> a_6 | Nuovo Z: -6671.3129 (Delta: -204.2224)
+Iter 30 - Mossa: p_26 -> a_7 | Nuovo Z: -6875.2431 (Delta: -203.9302)
+Iter 31 - Mossa: p_49 -> a_6 | Nuovo Z: -7078.6127 (Delta: -203.3696)
+Iter 32 - Mossa: p_27 -> a_5 | Nuovo Z: -7281.0799 (Delta: -202.4671)
+Iter 33 - Mossa: p_11 -> a_3 | Nuovo Z: -7483.0090 (Delta: -201.9291)
+Iter 34 - Mossa: p_61 -> a_10 | Nuovo Z: -7684.5101 (Delta: -201.5011)
+Iter 35 - Mossa: p_25 -> a_5 | Nuovo Z: -7885.9646 (Delta: -201.4546)
+Iter 36 - Mossa: p_36 -> a_4 | Nuovo Z: -8087.2809 (Delta: -201.3163)
+Iter 37 - Mossa: p_66 -> a_10 | Nuovo Z: -8288.4967 (Delta: -201.2158)
+Iter 38 - Mossa: p_69 -> a_19 | Nuovo Z: -8489.6885 (Delta: -201.1917)
+Iter 39 - Mossa: p_63 -> a_18 | Nuovo Z: -8690.4526 (Delta: -200.7641)
+Iter 40 - Mossa: p_92 -> a_18 | Nuovo Z: -8891.2167 (Delta: -200.7641)
+Iter 41 - Mossa: p_23 -> a_5 | Nuovo Z: -9091.7548 (Delta: -200.5381)
+Iter 42 - Mossa: p_81 -> a_19 | Nuovo Z: -9292.2375 (Delta: -200.4827)
+Iter 43 - Mossa: p_42 -> a_0 | Nuovo Z: -9492.3761 (Delta: -200.1386)
+Iter 44 - Mossa: p_13 -> a_5 | Nuovo Z: -9692.1816 (Delta: -199.8055)
+Iter 45 - Mossa: p_28 -> a_2 | Nuovo Z: -9891.6732 (Delta: -199.4916)
+Iter 46 - Mossa: p_96 -> a_18 | Nuovo Z: -10090.9641 (Delta: -199.2909)
+Iter 47 - Mossa: p_87 -> a_12 | Nuovo Z: -10290.2000 (Delta: -199.2359)
+Iter 48 - Mossa: p_88 -> a_18 | Nuovo Z: -10489.0082 (Delta: -198.8083)
+Iter 49 - Mossa: p_58 -> a_12 | Nuovo Z: -10687.6754 (Delta: -198.6672)
+Iter 50 - Mossa: p_74 -> a_12 | Nuovo Z: -10886.3425 (Delta: -198.6672)
+Iter 51 - Mossa: p_83 -> a_12 | Nuovo Z: -11085.0097 (Delta: -198.6672)
+Iter 52 - Mossa: p_2 -> a_1 | Nuovo Z: -11283.6188 (Delta: -198.6091)
+Iter 53 - Mossa: p_19 -> a_8 | Nuovo Z: -11482.1643 (Delta: -198.5454)
+Iter 54 - Mossa: p_56 -> a_17 | Nuovo Z: -11680.6631 (Delta: -198.4989)
+Iter 55 - Mossa: p_48 -> a_1 | Nuovo Z: -11879.0778 (Delta: -198.4146)
+Iter 56 - Mossa: p_30 -> a_3 | Nuovo Z: -12077.2234 (Delta: -198.1456)
+Iter 57 - Mossa: p_29 -> a_7 | Nuovo Z: -12275.1557 (Delta: -197.9323)
+Iter 58 - Mossa: p_70 -> a_18 | Nuovo Z: -12472.9455 (Delta: -197.7898)
+Iter 59 - Mossa: p_7 -> a_2 | Nuovo Z: -12670.7213 (Delta: -197.7758)
+Iter 60 - Mossa: p_10 -> a_2 | Nuovo Z: -12868.4972 (Delta: -197.7758)
+Iter 61 - Mossa: p_55 -> a_11 | Nuovo Z: -13066.2660 (Delta: -197.7689)
+Iter 62 - Mossa: p_85 -> a_11 | Nuovo Z: -13263.8946 (Delta: -197.6285)
+Iter 63 - Mossa: p_80 -> a_11 | Nuovo Z: -13461.0404 (Delta: -197.1459)
+Iter 64 - Mossa: p_50 -> a_11 | Nuovo Z: -13657.1678 (Delta: -196.1274)
+Iter 65 - Mossa: p_72 -> a_10 | Nuovo Z: -13852.2250 (Delta: -195.0572)
+Iter 66 - Mossa: p_31 -> a_7 | Nuovo Z: -14046.9263 (Delta: -194.7013)
+Iter 67 - Mossa: p_71 -> a_10 | Nuovo Z: -14241.4369 (Delta: -194.5105)
+Iter 68 - Mossa: p_53 -> a_16 | Nuovo Z: -14435.6817 (Delta: -194.2448)
+Iter 69 - Mossa: p_64 -> a_10 | Nuovo Z: -14629.8224 (Delta: -194.1407)
+Iter 70 - Mossa: p_54 -> a_14 | Nuovo Z: -14823.3572 (Delta: -193.5348)
+Iter 71 - Mossa: p_98 -> a_14 | Nuovo Z: -15016.8284 (Delta: -193.4712)
+Iter 72 - Mossa: p_60 -> a_16 | Nuovo Z: -15209.6186 (Delta: -192.7902)
+Iter 73 - Mossa: p_84 -> a_19 | Nuovo Z: -15402.2029 (Delta: -192.5842)
+Iter 74 - Mossa: p_93 -> a_14 | Nuovo Z: -15594.6826 (Delta: -192.4797)
+Iter 75 - Mossa: p_97 -> a_18 | Nuovo Z: -15786.9829 (Delta: -192.3004)
+Iter 76 - Mossa: p_68 -> a_15 | Nuovo Z: -15979.1753 (Delta: -192.1923)
+Iter 77 - Mossa: p_52 -> a_12 | Nuovo Z: -16171.2582 (Delta: -192.0829)
+Iter 78 - Mossa: p_62 -> a_14 | Nuovo Z: -16363.3385 (Delta: -192.0803)
+Iter 79 - Mossa: p_76 -> a_13 | Nuovo Z: -16555.1052 (Delta: -191.7667)
+Iter 80 - Mossa: p_90 -> a_18 | Nuovo Z: -16746.4977 (Delta: -191.3925)
+Iter 81 - Mossa: p_89 -> a_19 | Nuovo Z: -16937.7656 (Delta: -191.2679)
+Iter 82 - Mossa: p_75 -> a_11 | Nuovo Z: -17128.4035 (Delta: -190.6380)
+Iter 83 - Mossa: p_67 -> a_12 | Nuovo Z: -17318.8374 (Delta: -190.4338)
+Iter 84 - Mossa: p_86 -> a_12 | Nuovo Z: -17509.2712 (Delta: -190.4338)
+Iter 85 - Mossa: p_77 -> a_11 | Nuovo Z: -17699.0013 (Delta: -189.7301)
+Iter 86 - Mossa: p_78 -> a_11 | Nuovo Z: -17888.5369 (Delta: -189.5356)
+[!] Ottimo Locale Raggiunto
+
+####################### REPORT FINALE (BEST-IMPROVEMENT) #######################
+Soluzione X ottima locale : [ 6  0  1  2  5  7  7  2  8  6  2  3  0  5  6  6  4  1  2  8  2  2  2  5
+  0  5  7  5  2  7  3  7  6  9  6  1  4  7  3  9  6  6  0  0  2  0  6  6
+  1  6 11 10 12 16 14 11 17 14 12 19 16 10 14 18 10 14 10 12 15 19 18 10
+ 10 18 12 11 13 11 11 11 11 19 15 12 19 11 12 12 18 19 18 15 18 14 12 13
+ 18 18 14 17]
+Ammissibilità rigorosa    : Verificata
+Numero di iterazioni      : 86
+Funzione Obiettivo Z      : -17888.54
+ -> Costo Totale (C_tot)  : 1485.79
+ -> Impatto Tot. (E_tot)  : 312.84
+ -> Adeguatezza (S_tot)   : 2000.00
+
+--- Inizio Local Search (first-improvement) ---
+Iter 0 (Sol. Iniziale) - Z: -631.1560
+Iter 1 - Mossa: p_0 -> a_4 | Nuovo Z: -640.0855 (Delta: -8.9294)
+Iter 2 - Mossa: p_0 -> a_6 | Nuovo Z: -841.6007 (Delta: -201.5153)
+Iter 3 - Mossa: p_1 -> a_0 | Nuovo Z: -1047.5986 (Delta: -205.9979)
+Iter 4 - Mossa: p_2 -> a_1 | Nuovo Z: -1246.2077 (Delta: -198.6091)
+Iter 5 - Mossa: p_3 -> a_2 | Nuovo Z: -1451.6972 (Delta: -205.4895)
+Iter 6 - Mossa: p_4 -> a_1 | Nuovo Z: -1459.6780 (Delta: -7.9808)
+Iter 7 - Mossa: p_4 -> a_3 | Nuovo Z: -1460.5308 (Delta: -0.8528)
+Iter 8 - Mossa: p_4 -> a_5 | Nuovo Z: -1661.0689 (Delta: -200.5381)
+Iter 9 - Mossa: p_5 -> a_0 | Nuovo Z: -1668.5679 (Delta: -7.4990)
+Iter 10 - Mossa: p_5 -> a_7 | Nuovo Z: -1866.5002 (Delta: -197.9323)
+Iter 11 - Mossa: p_6 -> a_1 | Nuovo Z: -1872.7224 (Delta: -6.2223)
+Iter 12 - Mossa: p_6 -> a_2 | Nuovo Z: -1873.2054 (Delta: -0.4830)
+Iter 13 - Mossa: p_6 -> a_4 | Nuovo Z: -1875.4296 (Delta: -2.2242)
+Iter 14 - Mossa: p_6 -> a_7 | Nuovo Z: -2071.6462 (Delta: -196.2166)
+Iter 15 - Mossa: p_7 -> a_2 | Nuovo Z: -2269.4220 (Delta: -197.7758)
+Iter 16 - Mossa: p_8 -> a_8 | Nuovo Z: -2478.2373 (Delta: -208.8154)
+Iter 17 - Mossa: p_9 -> a_3 | Nuovo Z: -2485.7381 (Delta: -7.5007)
+Iter 18 - Mossa: p_9 -> a_4 | Nuovo Z: -2487.5924 (Delta: -1.8544)
+Iter 19 - Mossa: p_9 -> a_6 | Nuovo Z: -2689.1077 (Delta: -201.5153)
+Iter 20 - Mossa: p_10 -> a_2 | Nuovo Z: -2886.8835 (Delta: -197.7758)
+Iter 21 - Mossa: p_11 -> a_3 | Nuovo Z: -3088.8126 (Delta: -201.9291)
+Iter 22 - Mossa: p_12 -> a_0 | Nuovo Z: -3296.4520 (Delta: -207.6394)
+Iter 23 - Mossa: p_13 -> a_5 | Nuovo Z: -3496.2574 (Delta: -199.8055)
+Iter 24 - Mossa: p_14 -> a_5 | Nuovo Z: -3504.1559 (Delta: -7.8984)
+Iter 25 - Mossa: p_14 -> a_6 | Nuovo Z: -3706.9875 (Delta: -202.8316)
+Iter 26 - Mossa: p_15 -> a_1 | Nuovo Z: -3713.4950 (Delta: -6.5076)
+Iter 27 - Mossa: p_15 -> a_6 | Nuovo Z: -3917.7175 (Delta: -204.2224)
+Iter 28 - Mossa: p_16 -> a_3 | Nuovo Z: -3926.5511 (Delta: -8.8336)
+Iter 29 - Mossa: p_16 -> a_4 | Nuovo Z: -4128.4054 (Delta: -201.8544)
+Iter 30 - Mossa: p_17 -> a_1 | Nuovo Z: -4337.2845 (Delta: -208.8791)
+Iter 31 - Mossa: p_18 -> a_1 | Nuovo Z: -4343.9324 (Delta: -6.6479)
+Iter 32 - Mossa: p_18 -> a_2 | Nuovo Z: -4544.4154 (Delta: -200.4830)
+Iter 33 - Mossa: p_19 -> a_8 | Nuovo Z: -4742.9608 (Delta: -198.5454)
+Iter 34 - Mossa: p_20 -> a_2 | Nuovo Z: -4949.2627 (Delta: -206.3019)
+Iter 35 - Mossa: p_22 -> a_2 | Nuovo Z: -5158.6248 (Delta: -209.3620)
+Iter 36 - Mossa: p_23 -> a_5 | Nuovo Z: -5359.1628 (Delta: -200.5381)
+Iter 37 - Mossa: p_24 -> a_0 | Nuovo Z: -5568.1350 (Delta: -208.9722)
+Iter 38 - Mossa: p_25 -> a_5 | Nuovo Z: -5769.5896 (Delta: -201.4546)
+Iter 39 - Mossa: p_26 -> a_0 | Nuovo Z: -5775.5875 (Delta: -5.9979)
+Iter 40 - Mossa: p_26 -> a_5 | Nuovo Z: -5775.9869 (Delta: -0.3994)
+Iter 41 - Mossa: p_26 -> a_7 | Nuovo Z: -5973.5198 (Delta: -197.5329)
+Iter 42 - Mossa: p_27 -> a_0 | Nuovo Z: -5975.5875 (Delta: -2.0677)
+Iter 43 - Mossa: p_27 -> a_5 | Nuovo Z: -6175.9869 (Delta: -200.3994)
+Iter 44 - Mossa: p_28 -> a_2 | Nuovo Z: -6375.4785 (Delta: -199.4916)
+Iter 45 - Mossa: p_29 -> a_4 | Nuovo Z: -6377.1942 (Delta: -1.7157)
+Iter 46 - Mossa: p_29 -> a_7 | Nuovo Z: -6573.4108 (Delta: -196.2166)
+Iter 47 - Mossa: p_30 -> a_3 | Nuovo Z: -6771.5564 (Delta: -198.1456)
+Iter 48 - Mossa: p_31 -> a_7 | Nuovo Z: -6966.2577 (Delta: -194.7013)
+Iter 49 - Mossa: p_32 -> a_0 | Nuovo Z: -6973.7780 (Delta: -7.5203)
+Iter 50 - Mossa: p_32 -> a_6 | Nuovo Z: -7177.0090 (Delta: -203.2310)
+Iter 51 - Mossa: p_33 -> a_3 | Nuovo Z: -7184.3694 (Delta: -7.3604)
+Iter 52 - Mossa: p_33 -> a_6 | Nuovo Z: -7187.7390 (Delta: -3.3696)
+Iter 53 - Mossa: p_33 -> a_9 | Nuovo Z: -7385.1020 (Delta: -197.3629)
+Iter 54 - Mossa: p_34 -> a_3 | Nuovo Z: -7394.8338 (Delta: -9.7319)
+Iter 55 - Mossa: p_34 -> a_6 | Nuovo Z: -7598.2034 (Delta: -203.3696)
+Iter 56 - Mossa: p_36 -> a_4 | Nuovo Z: -7799.5197 (Delta: -201.3163)
+Iter 57 - Mossa: p_37 -> a_0 | Nuovo Z: -7806.5361 (Delta: -7.0163)
+Iter 58 - Mossa: p_37 -> a_7 | Nuovo Z: -8004.4684 (Delta: -197.9323)
+Iter 59 - Mossa: p_38 -> a_3 | Nuovo Z: -8213.3019 (Delta: -208.8336)
+Iter 60 - Mossa: p_39 -> a_0 | Nuovo Z: -8220.8010 (Delta: -7.4990)
+Iter 61 - Mossa: p_39 -> a_9 | Nuovo Z: -8421.3949 (Delta: -200.5939)
+Iter 62 - Mossa: p_40 -> a_2 | Nuovo Z: -8426.8844 (Delta: -5.4895)
+Iter 63 - Mossa: p_40 -> a_3 | Nuovo Z: -8427.2542 (Delta: -0.3698)
+Iter 64 - Mossa: p_40 -> a_6 | Nuovo Z: -8630.6238 (Delta: -203.3696)
+Iter 65 - Mossa: p_41 -> a_6 | Nuovo Z: -8834.8462 (Delta: -204.2224)
+Iter 66 - Mossa: p_42 -> a_0 | Nuovo Z: -9034.9849 (Delta: -200.1386)
+Iter 67 - Mossa: p_43 -> a_0 | Nuovo Z: -9240.9828 (Delta: -205.9979)
+Iter 68 - Mossa: p_45 -> a_0 | Nuovo Z: -9450.8533 (Delta: -209.8705)
+Iter 69 - Mossa: p_46 -> a_1 | Nuovo Z: -9457.3608 (Delta: -6.5076)
+Iter 70 - Mossa: p_46 -> a_6 | Nuovo Z: -9661.5833 (Delta: -204.2224)
+Iter 71 - Mossa: p_47 -> a_6 | Nuovo Z: -9865.8694 (Delta: -204.2861)
+Iter 72 - Mossa: p_48 -> a_1 | Nuovo Z: -10064.2840 (Delta: -198.4146)
+Iter 73 - Mossa: p_49 -> a_6 | Nuovo Z: -10267.6536 (Delta: -203.3696)
+Iter 74 - Mossa: p_50 -> a_4 | Nuovo Z: -10275.3673 (Delta: -7.7136)
+Iter 75 - Mossa: p_50 -> a_11 | Nuovo Z: -10463.7810 (Delta: -188.4138)
+Iter 76 - Mossa: p_52 -> a_12 | Nuovo Z: -10655.8640 (Delta: -192.0829)
+Iter 77 - Mossa: p_53 -> a_0 | Nuovo Z: -10656.9191 (Delta: -1.0551)
+Iter 78 - Mossa: p_53 -> a_5 | Nuovo Z: -10657.3185 (Delta: -0.3994)
+Iter 79 - Mossa: p_53 -> a_6 | Nuovo Z: -10660.1501 (Delta: -2.8316)
+Iter 80 - Mossa: p_53 -> a_16 | Nuovo Z: -10850.1088 (Delta: -189.9587)
+Iter 81 - Mossa: p_54 -> a_2 | Nuovo Z: -10850.6554 (Delta: -0.5467)
+Iter 82 - Mossa: p_54 -> a_3 | Nuovo Z: -10851.0253 (Delta: -0.3698)
+Iter 83 - Mossa: p_54 -> a_4 | Nuovo Z: -10852.8796 (Delta: -1.8544)
+Iter 84 - Mossa: p_54 -> a_14 | Nuovo Z: -11043.6436 (Delta: -190.7640)
+Iter 85 - Mossa: p_55 -> a_0 | Nuovo Z: -11051.2830 (Delta: -7.6394)
+Iter 86 - Mossa: p_55 -> a_4 | Nuovo Z: -11052.9987 (Delta: -1.7157)
+Iter 87 - Mossa: p_55 -> a_11 | Nuovo Z: -11241.4125 (Delta: -188.4138)
+Iter 88 - Mossa: p_56 -> a_2 | Nuovo Z: -11246.9019 (Delta: -5.4895)
+Iter 89 - Mossa: p_56 -> a_5 | Nuovo Z: -11247.8098 (Delta: -0.9079)
+Iter 90 - Mossa: p_56 -> a_6 | Nuovo Z: -11250.6414 (Delta: -2.8316)
+Iter 91 - Mossa: p_56 -> a_17 | Nuovo Z: -11439.9114 (Delta: -189.2700)
+Iter 92 - Mossa: p_58 -> a_1 | Nuovo Z: -11446.5593 (Delta: -6.6479)
+Iter 93 - Mossa: p_58 -> a_2 | Nuovo Z: -11447.0423 (Delta: -0.4830)
+Iter 94 - Mossa: p_58 -> a_4 | Nuovo Z: -11449.2665 (Delta: -2.2242)
+Iter 95 - Mossa: p_58 -> a_12 | Nuovo Z: -11638.5785 (Delta: -189.3121)
+Iter 96 - Mossa: p_60 -> a_4 | Nuovo Z: -11639.8948 (Delta: -1.3163)
+Iter 97 - Mossa: p_60 -> a_16 | Nuovo Z: -11831.3687 (Delta: -191.4739)
+Iter 98 - Mossa: p_61 -> a_3 | Nuovo Z: -11838.7291 (Delta: -7.3604)
+Iter 99 - Mossa: p_61 -> a_6 | Nuovo Z: -11842.0988 (Delta: -3.3696)
+Iter 100 - Mossa: p_61 -> a_10 | Nuovo Z: -12032.8699 (Delta: -190.7711)
+Iter 101 - Mossa: p_62 -> a_14 | Nuovo Z: -12224.9501 (Delta: -192.0803)
+Iter 102 - Mossa: p_63 -> a_6 | Nuovo Z: -12237.1534 (Delta: -12.2032)
+Iter 103 - Mossa: p_63 -> a_18 | Nuovo Z: -12425.7143 (Delta: -188.5609)
+Iter 104 - Mossa: p_64 -> a_0 | Nuovo Z: -12425.8529 (Delta: -0.1386)
+Iter 105 - Mossa: p_64 -> a_4 | Nuovo Z: -12427.5686 (Delta: -1.7157)
+Iter 106 - Mossa: p_64 -> a_10 | Nuovo Z: -12619.8550 (Delta: -192.2864)
+Iter 107 - Mossa: p_66 -> a_2 | Nuovo Z: -12626.5603 (Delta: -6.7053)
+Iter 108 - Mossa: p_66 -> a_10 | Nuovo Z: -12821.0708 (Delta: -194.5105)
+Iter 109 - Mossa: p_67 -> a_4 | Nuovo Z: -12822.1926 (Delta: -1.1218)
+Iter 110 - Mossa: p_67 -> a_12 | Nuovo Z: -13011.5047 (Delta: -189.3121)
+Iter 111 - Mossa: p_68 -> a_4 | Nuovo Z: -13012.6264 (Delta: -1.1218)
+Iter 112 - Mossa: p_68 -> a_6 | Nuovo Z: -13014.1417 (Delta: -1.5153)
+Iter 113 - Mossa: p_68 -> a_15 | Nuovo Z: -13203.6970 (Delta: -189.5553)
+Iter 114 - Mossa: p_69 -> a_0 | Nuovo Z: -13211.9051 (Delta: -8.2081)
+Iter 115 - Mossa: p_69 -> a_19 | Nuovo Z: -13404.8887 (Delta: -192.9837)
+Iter 116 - Mossa: p_70 -> a_1 | Nuovo Z: -13409.8952 (Delta: -5.0065)
+Iter 117 - Mossa: p_70 -> a_3 | Nuovo Z: -13410.7480 (Delta: -0.8528)
+Iter 118 - Mossa: p_70 -> a_5 | Nuovo Z: -13411.2861 (Delta: -0.5381)
+Iter 119 - Mossa: p_70 -> a_6 | Nuovo Z: -13414.1176 (Delta: -2.8316)
+Iter 120 - Mossa: p_70 -> a_18 | Nuovo Z: -13602.6786 (Delta: -188.5609)
+Iter 121 - Mossa: p_71 -> a_3 | Nuovo Z: -13603.0484 (Delta: -0.3698)
+Iter 122 - Mossa: p_71 -> a_10 | Nuovo Z: -13797.1891 (Delta: -194.1407)
+Iter 123 - Mossa: p_72 -> a_3 | Nuovo Z: -13798.1056 (Delta: -0.9165)
+Iter 124 - Mossa: p_72 -> a_4 | Nuovo Z: -13799.9600 (Delta: -1.8544)
+Iter 125 - Mossa: p_72 -> a_10 | Nuovo Z: -13992.2463 (Delta: -192.2864)
+Iter 126 - Mossa: p_74 -> a_1 | Nuovo Z: -13998.8942 (Delta: -6.6479)
+Iter 127 - Mossa: p_74 -> a_2 | Nuovo Z: -13999.3772 (Delta: -0.4830)
+Iter 128 - Mossa: p_74 -> a_5 | Nuovo Z: -14000.2851 (Delta: -0.9079)
+Iter 129 - Mossa: p_74 -> a_12 | Nuovo Z: -14190.9135 (Delta: -190.6284)
+Iter 130 - Mossa: p_75 -> a_5 | Nuovo Z: -14191.8213 (Delta: -0.9079)
+Iter 131 - Mossa: p_75 -> a_6 | Nuovo Z: -14194.6529 (Delta: -2.8316)
+Iter 132 - Mossa: p_75 -> a_11 | Nuovo Z: -14381.5514 (Delta: -186.8985)
+Iter 133 - Mossa: p_76 -> a_13 | Nuovo Z: -14573.3181 (Delta: -191.7667)
+Iter 134 - Mossa: p_77 -> a_6 | Nuovo Z: -14576.1497 (Delta: -2.8316)
+Iter 135 - Mossa: p_77 -> a_11 | Nuovo Z: -14763.0482 (Delta: -186.8985)
+Iter 136 - Mossa: p_78 -> a_6 | Nuovo Z: -14765.6853 (Delta: -2.6371)
+Iter 137 - Mossa: p_78 -> a_11 | Nuovo Z: -14952.5838 (Delta: -186.8985)
+Iter 138 - Mossa: p_80 -> a_3 | Nuovo Z: -14959.4615 (Delta: -6.8777)
+Iter 139 - Mossa: p_80 -> a_4 | Nuovo Z: -14961.3158 (Delta: -1.8544)
+Iter 140 - Mossa: p_80 -> a_6 | Nuovo Z: -14962.8311 (Delta: -1.5153)
+Iter 141 - Mossa: p_80 -> a_11 | Nuovo Z: -15149.7296 (Delta: -186.8985)
+Iter 142 - Mossa: p_81 -> a_0 | Nuovo Z: -15157.2286 (Delta: -7.4990)
+Iter 143 - Mossa: p_81 -> a_19 | Nuovo Z: -15350.2123 (Delta: -192.9837)
+Iter 144 - Mossa: p_83 -> a_0 | Nuovo Z: -15357.8516 (Delta: -7.6394)
+Iter 145 - Mossa: p_83 -> a_12 | Nuovo Z: -15548.8794 (Delta: -191.0278)
+Iter 146 - Mossa: p_84 -> a_6 | Nuovo Z: -15551.7110 (Delta: -2.8316)
+Iter 147 - Mossa: p_84 -> a_19 | Nuovo Z: -15741.4637 (Delta: -189.7527)
+Iter 148 - Mossa: p_85 -> a_4 | Nuovo Z: -15750.6784 (Delta: -9.2148)
+Iter 149 - Mossa: p_85 -> a_11 | Nuovo Z: -15939.0922 (Delta: -188.4138)
+Iter 150 - Mossa: p_86 -> a_6 | Nuovo Z: -15941.7293 (Delta: -2.6371)
+Iter 151 - Mossa: p_86 -> a_12 | Nuovo Z: -16129.5260 (Delta: -187.7968)
+Iter 152 - Mossa: p_87 -> a_1 | Nuovo Z: -16136.7427 (Delta: -7.2166)
+Iter 153 - Mossa: p_87 -> a_3 | Nuovo Z: -16137.5955 (Delta: -0.8528)
+Iter 154 - Mossa: p_87 -> a_5 | Nuovo Z: -16138.1336 (Delta: -0.5381)
+Iter 155 - Mossa: p_87 -> a_6 | Nuovo Z: -16140.9651 (Delta: -2.8316)
+Iter 156 - Mossa: p_87 -> a_12 | Nuovo Z: -16328.7619 (Delta: -187.7968)
+Iter 157 - Mossa: p_88 -> a_1 | Nuovo Z: -16334.7868 (Delta: -6.0249)
+Iter 158 - Mossa: p_88 -> a_4 | Nuovo Z: -16337.4940 (Delta: -2.7072)
+Iter 159 - Mossa: p_88 -> a_18 | Nuovo Z: -16527.5702 (Delta: -190.0762)
+Iter 160 - Mossa: p_89 -> a_6 | Nuovo Z: -16529.0854 (Delta: -1.5153)
+Iter 161 - Mossa: p_89 -> a_19 | Nuovo Z: -16718.8381 (Delta: -189.7527)
+Iter 162 - Mossa: p_90 -> a_4 | Nuovo Z: -16720.1544 (Delta: -1.3163)
+Iter 163 - Mossa: p_90 -> a_6 | Nuovo Z: -16721.6697 (Delta: -1.5153)
+Iter 164 - Mossa: p_90 -> a_18 | Nuovo Z: -16910.2306 (Delta: -188.5609)
+Iter 165 - Mossa: p_92 -> a_0 | Nuovo Z: -16919.2028 (Delta: -8.9722)
+Iter 166 - Mossa: p_92 -> a_4 | Nuovo Z: -16920.9185 (Delta: -1.7157)
+Iter 167 - Mossa: p_92 -> a_18 | Nuovo Z: -17110.9947 (Delta: -190.0762)
+Iter 168 - Mossa: p_93 -> a_14 | Nuovo Z: -17303.4744 (Delta: -192.4797)
+Iter 169 - Mossa: p_96 -> a_10 | Nuovo Z: -17304.9756 (Delta: -1.5011)
+Iter 170 - Mossa: p_96 -> a_18 | Nuovo Z: -17502.7654 (Delta: -197.7898)
+Iter 171 - Mossa: p_97 -> a_3 | Nuovo Z: -17503.1352 (Delta: -0.3698)
+Iter 172 - Mossa: p_97 -> a_4 | Nuovo Z: -17504.9895 (Delta: -1.8544)
+Iter 173 - Mossa: p_97 -> a_18 | Nuovo Z: -17695.0657 (Delta: -190.0762)
+Iter 174 - Mossa: p_98 -> a_5 | Nuovo Z: -17696.4566 (Delta: -1.3909)
+Iter 175 - Mossa: p_98 -> a_6 | Nuovo Z: -17699.2882 (Delta: -2.8316)
+Iter 176 - Mossa: p_98 -> a_14 | Nuovo Z: -17888.5369 (Delta: -189.2487)
+[!] Ottimo Locale Raggiunto
+
+###################### REPORT FINALE (FIRST-IMPROVEMENT) #######################
+Soluzione X ottima locale : [ 6  0  1  2  5  7  7  2  8  6  2  3  0  5  6  6  4  1  2  8  2  2  2  5
+  0  5  7  5  2  7  3  7  6  9  6  1  4  7  3  9  6  6  0  0  2  0  6  6
+  1  6 11 10 12 16 14 11 17 14 12 19 16 10 14 18 10 14 10 12 15 19 18 10
+ 10 18 12 11 13 11 11 11 11 19 15 12 19 11 12 12 18 19 18 15 18 14 12 13
+ 18 18 14 17]
+Ammissibilità rigorosa    : Verificata
+Numero di iterazioni      : 176
+Funzione Obiettivo Z      : -17888.54
+ -> Costo Totale (C_tot)  : 1485.79
+ -> Impatto Tot. (E_tot)  : 312.84
+ -> Adeguatezza (S_tot)   : 2000.00
+
